@@ -1,0 +1,21 @@
+
+
+
+
+/* Step 2 B CSS */
+
+#region-capetown{
+    background-color:#f2f2f2; width:500px; padding:20px; margin-top:20px;
+}
+
+.clicked{
+    display: block
+}
+
+#region-durban{
+    background-color:#f2f2f2; width:500px; padding:20px; margin-top:20px; display: none;
+}
+
+#region-johannesburg{
+    background-color:#f2f2f2; width:500px; padding:20px; margin-top:20px; display: none;
+}
