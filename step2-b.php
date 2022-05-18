@@ -10,8 +10,6 @@
 
     <h1>Collect Campaign Information</h1>
 
-
-
 <h3>Select the region</h3>
 
 <button id="btn-cpt">Cape Town</button>
