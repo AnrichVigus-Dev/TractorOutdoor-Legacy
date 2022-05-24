@@ -9,7 +9,7 @@
 
     <h1>Business information</h1>
 
-    <form action="./step2-b.php"  method="POST">
+    <form action="./select-location.php"  method="POST">
         <!-- Name -->
         <input type="text" id="name" name="fname" value="Name and surname"><br><br>
         <!-- Company name -->

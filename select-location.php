@@ -63,12 +63,16 @@
 
 </section>
 
+<br>
+<br>
+<br>
 
-
+<button onclick="window.location.href='./select-date.php';">Select date</button>
 
 
 
 <!-- Javascript link -->
+
 <script>
 
 // Cape Town
@@ -94,7 +98,6 @@ const btn2 = document.getElementById("btn-drb");
       }
     };
 
-</script>
-
+</script> 
 </body>
 </html>
