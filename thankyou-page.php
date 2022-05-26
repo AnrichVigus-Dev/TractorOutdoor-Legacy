@@ -4,10 +4,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/style.css">
-    <title>SStep 4 - Registration</title>
+    <title>Thank you page</title>
 </head>
 <body>
-
+    
 <!-- Header Start -->
 
 <nav class="nav">
@@ -25,29 +25,24 @@
     <div class="progress-bar progress-bar-active">Step 2</div>
     <div class="progress-bar progress-bar-active">Step 3</div>
     <div class="progress-bar progress-bar-active">Step 4</div>
-    <div class="progress-bar">Step 5</div>
+    <div class="progress-bar progress-bar-active">Step 5</div>
 </div>    
 
 <!-- Progress Bar - End -->
 
-
 <section class="body-container">
 
-    <h1 style="text-align:center">Complete Company Registration</h1>
-    <p style="text-align:center">Username & Password for Advertiser Dashboard Secure Login</p>
+    <h1 style="text-align:center; margin-top:100px">Thank you for registering</h1>
+    <p style="text-align:center">Look out for you activation email to confirm your account.</p>
 
 
 </section>
 
 
-
-
-<div class="date-select-btn-container">
-    <button onclick="window.location.href='./thankyou-page.php';">Select the start and end date</button>
+<h4 style="text-align:center; margin-top:200px">This is a placeholder button, the link in the button will be send via email</h4>
+<div class="date-select-btn-container" style="margin-top:-10px">
+    <button onclick="window.location.href='./dashboard/index.php';">Login now</button>
 </div>
 
-
-    
 </body>
-
 </html>
