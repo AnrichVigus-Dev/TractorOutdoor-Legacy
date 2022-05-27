@@ -47,6 +47,7 @@
 
 
 <!-- Chatbot -->
+
 <div class="botIcon">
 	<div class="botIconContainer">
 		<div class="iconInner">
@@ -80,6 +81,10 @@
 		</div>
 	</div>
 </div>
+
+<!-- Chatbot -->
+
+
 <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js'></script>
 <script src='./js/chatbot.js'></script>
 

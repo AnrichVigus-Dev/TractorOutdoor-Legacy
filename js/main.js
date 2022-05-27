@@ -71,3 +71,8 @@ function selectCapetown() {
        text.style.display = "none";
     }
   }
+
+
+
+  // Upload page 
+

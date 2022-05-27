@@ -18,15 +18,36 @@
 
 <!-- Header End -->
 
-
+<br>
 <section class="body-container">
 
  
     <!-- Login Form -->
 
     <div class="login-form-container">
-        <h2>Login now</h2>
+        <h2 style="text-align:center">Login now</h2>
+
+        <form class="login-form">
+
+            <div class="user-box">
+            <label>Username</label><br>
+            <input type="text" name="" required="">
+            </div>
+
+            <div class="user-box">
+            <label>Password</label><br>
+            <input type="password" name="" required="">
+            </div>
+<br>
+<br>
+            <a href="./upload-artwork/index.php" class="login-btn">Login</a>
+        </form>
+
+        
     </div>    
+
+
+
 <section>
 
 </body>

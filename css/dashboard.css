@@ -3,6 +3,13 @@ body{
     margin: 0;
 }
 
+.btn{
+    text-align: center;
+    background-color: #8a57cf;
+    color:#fff;
+    border: none;
+    padding: 15px 20px 15px 20px;
+}
 
 /* Fonts */
 
@@ -35,10 +42,32 @@ h1{
 .body-container{
     width: 90%;
     margin: auto;
-    background-color: rgb(241, 241, 241);
+    padding: 40px;
 }
 
+/* Progress bar */
 
+.progress-container{
+    width: 100%;
+    height: 30px;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    gap:2px;
+    position: relative;
+    z-index: -1;
+}
+
+.progress-bar{
+    width: auto;
+    background-color:#e2e2e2;
+    text-align: center;
+    padding-top: 5px;
+}
+
+.progress-bar-active{
+    background-color: #a64bf4;
+    color: #fff;
+}
 
 /* ------------------------  LOGIN PAGE ------------------------- */
 
@@ -47,9 +76,187 @@ h1{
     max-width: 500px;
     background-color:rgb(209, 209, 209) ;
     margin: auto;
+    padding-bottom: 40px;
+    padding-top:20px
+}
+
+.login-form{
+    margin-left:20px
+}
+
+.login-btn{
     text-align: center;
-    height: 500px;
-    box-shadow: 0px 1px 5px 1px rgba(0,0,0,0.25);
-    -webkit-box-shadow: 0px 1px 5px 1px rgba(0,0,0,0.25);
-    -moz-box-shadow: 0px 1px 5px 1px rgba(0,0,0,0.25);
+    background-color: #8a57cf;
+    color:#fff;
+    border: none;
+    padding: 15px 20px 15px 20px;
+}
+
+
+/* ------------------------  Upload Artwork page ------------------------- */
+
+
+
+.billboards-selection-container{
+    width: 100%;
+    
+}
+
+.billboards-selection-inner{
+    background-color: rgb(235, 235, 235);
+    padding-bottom: 30px;
+    padding-left: 30px;
+}
+
+.billboards-selection-inner button{
+    text-align: center;
+    background-color: #8a57cf;
+    color:#fff;
+    border: none;
+    padding: 15px 20px 15px 20px;
+    margin-top:20px
+}
+
+
+            /*  FAQ Section */
+
+            .accordion {
+                background-color: rgb(233, 233, 233);
+                color: #444;
+                cursor: pointer;
+                padding: 18px;
+                width: 100%;
+                border: none;
+                text-align: left;
+                outline: none;
+                font-size: 15px;
+                transition: 0.4s;
+                margin:auto;
+                margin-top:10px
+              }
+              
+              .active, .accordion:hover {
+                background-color: #ccc; 
+                
+              }
+              
+              .panel {
+                padding: 0 18px;
+                display: none;
+                background-color: white;
+                overflow: hidden;
+              }
+
+
+/* -------------------- Upload location based artwork page ----------------- */
+
+.location-upload-container{
+    width: 100%;
+    max-width: 1000px;
+    background-color: #e2e2e2;
+    display: flex;
+    text-align: center;
+    margin-top: 50px;
+    margin: auto;
+}
+
+.location-roadside-section{
+    width: 50%;
+    background-color:rgb(203, 250, 234) ;
+    padding-bottom: 30px;
+}
+
+.location-forecourt-section{
+    width: 50%;
+    background-color:rgb(118, 184, 193) ;
+    
+}
+
+        .roadside-slider{
+            width:90%;
+            height: 425px;
+            background-color: rgb(218, 218, 218);
+            margin: auto;
+        }
+
+                .roadside-slide-one{
+                    width: 90%;
+                    margin: auto;
+                    background-color: #efefef;
+                    margin-top: 20px;
+                    padding-top:20px
+                }
+
+        .forecourt-slider{
+            width:90%;
+            height: 425px;
+            background-color: rgb(218, 218, 218);
+            margin: auto;
+        }
+
+
+
+.designer-assist-container{
+    width: 100%;
+    max-width: 1000px;
+    background-color: #d4d4d4;
+    margin: auto;
+    text-align: center;
+    margin-top:20px
+}
+
+        .designer-assist-container-inner{
+            margin: auto;
+            padding: 20px;
+            
+        }
+
+        .designer-assist-container-inner button{
+            text-align: center;
+            background-color: #8a57cf;
+            color:#fff;
+            border: none;
+            padding: 15px 20px 15px 20px;
+        }
+
+
+.agree-submit-container{
+    width: 100%;
+    max-width: 1000px;
+    background-color: #d4d4d4;
+    margin: auto;
+    text-align: center;
+    margin-top:20px
+}
+
+        .agree-submit-container-inner{
+            padding:20px;
+        }
+
+        .agree-submit-container-inner button{
+            text-align: center;
+            background-color: #8a57cf;
+            color:#fff;
+            border: none;
+            padding: 15px 20px 15px 20px;
+        }
+
+
+/* --------------- Fail Upload Page ---------------- */
+
+
+
+.upload-fail-btn-container{
+width: 80%;
+text-align: center;
+margin: auto;
+padding-top: 40px;
+}
+
+.upload-fail-btn-container button{
+    text-align: center;
+    background-color: #8a57cf;
+    color:#fff;
+    border: none;
+    padding: 15px 20px 15px 20px;
 }

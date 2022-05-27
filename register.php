@@ -34,7 +34,30 @@
 <section class="body-container">
 
     <h1 style="text-align:center">Complete Company Registration</h1>
-    <p style="text-align:center">Username & Password for Advertiser Dashboard Secure Login</p>
+    
+
+    <!-- Place Holder form -->
+
+    <form action="#">
+  <div class="container">
+
+    <p>Please fill in this form to create an account.</p>
+
+    <label for="email"><b>Email</b></label>
+    <input type="text" placeholder="Enter Email" name="email" id="email" required>
+
+    <label for="psw"><b>Password</b></label>
+    <input type="password" placeholder="Enter Password" name="psw" id="psw" required>
+
+    <label for="psw-repeat"><b>Repeat Password</b></label>
+    <input type="password" placeholder="Repeat Password" name="psw-repeat" id="psw-repeat" required>
+
+  <div class="container signin">
+    <p>Already have an account? <a href="#">Sign in</a>.</p>
+  </div>
+</form>
+
+    
 
 
 </section>
@@ -43,7 +66,7 @@
 
 
 <div class="date-select-btn-container">
-    <button onclick="window.location.href='./thankyou-page.php';">Select the start and end date</button>
+    <button onclick="window.location.href='./thankyou-page.php';">Register now</button>
 </div>
 
 
