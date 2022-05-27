@@ -49,6 +49,7 @@
 </div>
 <!-- Date Select Container -->
 
+<p style="text-align:center">Disclaimer that Tractor deserves the right to change flight dates, above pure indication.</p>
 
 <div class="date-select-btn-container">
 <button onclick="window.location.href='./register.php';">Confirm date</button>
