@@ -31,6 +31,7 @@
 
 <h1 Style="text-align:center">Your billboards awaiting artwork:</h1>
 <p Style="text-align:center">Please uplaod your creative by location below </p>
+<p Style="text-align:center">Comments:<br> // We show ony the location the user selected on the "select-location.php" page //</p>
 
 <!-- The users billboards they selected -->
 
@@ -42,6 +43,7 @@
         <p> Selected: Roadside + Forecourt</p>
         <!-- User Supply artwork here -->
         <button onclick="window.location.href='../upload-artwork/upload.php';">Supply Artwork</button>
+        <p>Status: <span style="color:red">Outstanding</span> / <span style="color:green">Uploaded</span></p>
     </div> 
 
     <div class="billboards-selection-inner">
@@ -50,6 +52,7 @@
         <p> Selected: Roadside + Forecourt</p>
         <!-- User Supply artwork here -->
         <button onclick="window.location.href='../upload-artwork/upload.php';">Supply Artwork</button>
+        <p>Status: <span style="color:red">Outstanding</span> / <span style="color:green">Uploaded</span></p>
     </div> 
 
     <div class="billboards-selection-inner">
@@ -58,65 +61,37 @@
         <p> Selected: Roadside </p>
         <!-- User Supply artwork here -->
         <button onclick="window.location.href='../upload-artwork/upload.php';">Supply Artwork</button>
+        <p>Status: <span style="color:red">Outstanding</span> / <span style="color:green">Uploaded</span></p>
     </div> 
 
 </div>
 
 
+<!-- Agree and submit -->
+
+                <!-- This section can be grey out untill all artwork is supplied -->
+                <div class="agree-submit-container">
+                    <div class="agree-submit-container-inner">
+
+                        <input id="checkbox" type="checkbox" />
+                        <label for="checkbox">I agree with Tractor T&C’s and ready to submit my creatives for approval</label>
+                        <br>
+                        <!-- We need to add reCaptcha here -->
+                        <br>
+                        <img src="http://localhost:8888/TractorLegacy/img/recaptha-img.jpg" width="250">
+                        <br>
+                        <br>
+                        <button onclick="window.location.href='../upload-artwork/upload-success.php';">Submit Artwork</button>
+                        <p>If Artwork approved by vetting system</p>
+                    </div>
+                </div>
+
+<!-- Agree and submit -->
 
 
 </section>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<!-- Progression 
-
-<div class="progression-container">
-
-
-  
-        <div class="production-timeline-container">
-            <h2>Production timeline</h2>
-            <div class="production-timeline-container-inner">
-                <div style="border-left:2px solid black; height:70px"><h3>Stage 1</h3></div>
-                <div><h3>Stage 2</h3></div>
-                <div><h3>Stage 3</h3></div>
-                <div style="border-right:2px solid black"><h3>Stage 4</h3></div>
-            </div>
-        </div>
-
-
-   
-        <div class="live-timeline-container">
-        <h2>Running Date (2 Weeks Max)</h2>
-            <div class="live-timeline-container-inner">
-             cvwevsdbsbbre
-            </div>
-        </div>
-
-
-</div>    
--->
 
 </body>
 </html>

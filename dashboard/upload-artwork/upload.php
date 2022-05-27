@@ -120,23 +120,7 @@
                     </div>
                 </div>
 
-                  <!-- Agree and submit -->
-
-                <div class="agree-submit-container">
-                    <div class="agree-submit-container-inner">
-
-                        <input id="checkbox" type="checkbox" />
-                        <label for="checkbox">I agree with Tractor T&C’s and ready to submit my creatives for approval</label>
-                        <br>
-                        <!-- We need to add reCaptcha here -->
-                        <br>
-                        <img src="http://localhost:8888/TractorLegacy/img/recaptha-img.jpg" width="250">
-                        <br>
-                        <br>
-                        <button onclick="window.location.href='../upload-artwork/upload-success.php';">Submit Artwork</button>
-                        <p>If Artwork approved by vetting system</p>
-                    </div>
-                </div>
+                  
 
                 <div style="margin:auto; width:100%; text-align:center; padding-top:40px">
                     <button onclick="window.location.href='#designer-assist';" class="btn">Submit Artwork</button>

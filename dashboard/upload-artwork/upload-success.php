@@ -39,8 +39,10 @@
 
 
 <div class="upload-fail-btn-container">
-<button  onclick="window.location.href='http://localhost:8888/TractorLegacy/dashboard/vetting/index.php';">View Vetting Progress</button>
+    <button  onclick="window.location.href='http://localhost:8888/TractorLegacy/dashboard/upload-artwork/index.php';">Update artwork</button>
+    <button  onclick="window.location.href='http://localhost:8888/TractorLegacy/dashboard/vetting/index.php';">View Vetting Progress</button>
 </div>
+
 
 
 
